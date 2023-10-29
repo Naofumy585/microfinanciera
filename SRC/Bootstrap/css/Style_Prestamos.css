@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cambiar el color de fondo de la página */
+    text-align: center; /* Centrar el contenido en la página */
+}
+body, div, form, nav, ul, li, img, p, h1, input, section {
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333; /* Cambiar el color del título principal */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db; /* Cambiar el color de fondo del encabezado */
+    padding: 20px;
+}
+
+.header img {
+    width: 50px; /* Ajusta el ancho de la imagen */
+    margin-right: 10px; /* Agrega un margen a la derecha de la imagen */
+}
+
+h2 {
+    color: #333; /* Cambiar el color del subtítulo */
+}
+
+/* Estilos para el formulario */
+#loan-form {
+    background-color: #fff; /* Cambiar el color de fondo del formulario */
+    padding: 20px;
+    border-radius: 10px; /* Agregar bordes redondeados al formulario */
+    text-align: left; /* Alinear el texto del formulario a la izquierda */
+    width: 300px; /* Ajustar el ancho del formulario */
+    margin: 0 auto; /* Centrar el formulario en la página */
+}
+
+/* Estilos para los campos del formulario */
+label {
+    display: block; /* Mostrar las etiquetas en líneas separadas */
+    margin-top: 10px; /* Agregar espacio entre las etiquetas */
+}
+
+input {
+    width: 100%; /* Ajustar el ancho de los campos de entrada al 100% del contenedor */
+}
+
+input[type="number"] {
+    width: auto; /* Restablecer el ancho para el campo de número */
+}
+
+input[type="submit"] {
+    margin-top: 10px; /* Agregar espacio entre el último campo y el botón */
+}

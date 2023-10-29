@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Bootstrap/css/Style_Rcliente.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de Clientes y Otorgamiento de Préstamos</title>
     <style>
         body {
@@ -70,6 +74,8 @@
         <input type="tel" id="telefono" name="telefono" required><br><br>
         <button type="submit">Registrar Cliente</button>
     </form>
+    <script src="/SRC/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/SRC/Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
 

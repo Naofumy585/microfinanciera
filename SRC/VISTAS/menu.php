@@ -2,59 +2,11 @@
 <html lang="es-MX">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap 5.3 CSS -->
+<meta charset="UTF-8">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../Bootstrap/css/Style_menu.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MICROFINANCIERA</title>
-    <style>
-         body {
-            background-color: #9BB6D7; /* Cambia este valor al color de fondo que desees para la página */
-        }
-
-        h2 {
-            font-family: 'Times New Roman', Times, serif; /* Cambia "Arial" al tipo de letra que desees */
-        }
-
-        h3 {
-            font-family: Georgia, 'Times New Roman', Times, serif; /* Cambia "Arial" al tipo de letra que desees */
-        }
-
-        /* Estilo para resaltar las opciones de navegación al pasar el cursor */
-        .nav {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Estilos para los botones del menú */
-        .menu-button {
-            background-color: #29A0D4 ;
-            color: #000;
-            border-color: #8F8E8D;
-        }
-
-        .nav-link {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        /* Agregamos el estilo para bordes circulares */
-        .menu-image {
-            border-radius: 30%;
-        }
-
-        @media screen and (max-width: 600px) {
-            .nav-item {
-                float: none;
-                width: 100%;
-            }
-        }
-    </style>
 </head>
 <body>
     <div class="row">
@@ -124,15 +76,7 @@
     <footer>
        
     </footer>
-        <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-        crossorigin="anonymous"></script>
+    <script src="/SRC/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/SRC/Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

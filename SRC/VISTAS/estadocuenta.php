@@ -1,56 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Bootstrap/css/Style_EstadoCuenta.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generar Estado de Cuenta</title>
-    <style>
-        body {
-            background-color: #f0f0f0;
-            text-align: center;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        .header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #3498db;
-            padding: 20px;
-        }
-
-        .header img {
-            width: 50px;
-            margin-right: 10px;
-        }
-
-        h2 {
-            color: #333;
-        }
-
-        #clienteForm {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: left;
-            width: 300px;
-            margin: 0 auto;
-        }
-
-        label {
-            display: block;
-            margin-top: 10px;
-        }
-
-        input {
-            width: 100%;
-        }
-
-        button {
-            margin-top: 10px;
-        }
-    </style>
 </head>
 <body>
     <div class="header">
@@ -66,6 +21,8 @@
         <input type="text" id="nombre_cliente" name="nombre_cliente" required><br><br>
         <button type="submit">Generar Reporte</button>
     </form>
+    <script src="/SRC/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/SRC/Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
 

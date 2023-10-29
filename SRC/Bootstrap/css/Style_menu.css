@@ -1,6 +1,9 @@
 body {
    background-color: #9BB6D7; /* Cambia este valor al color de fondo que desees para la página */
 }
+body, div, form, nav, ul, li, img, p, h1, input, section {
+   border-radius: 10px;
+}
 h2 {
    font-family: 'Times New Roman', Times, serif; /* Cambia "Arial" al tipo de letra que desees */
 }
@@ -29,10 +32,6 @@ h3 {
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
-}
-/* Agregamos el estilo para bordes circulares */
-.menu-image {
-   border-radius: 30%;
 }
 @media screen and (max-width: 600px) {
    .nav-item {
