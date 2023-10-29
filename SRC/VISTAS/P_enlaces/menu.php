@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap 5.3 CSS -->
-    <link rel="stylesheet" href="../Bootstrap/css/Style_menu.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./SRC/Bootstrap/css/bootstrap.min.css">
     <title>MICROFINANCIERA</title>
+
     <style>
-         body {
+        body {
             background-color: #9BB6D7; /* Cambia este valor al color de fondo que desees para la página */
         }
 
@@ -56,6 +56,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="row">
     <nav class="navbar " >
@@ -121,10 +122,12 @@
             </div>
         </div>
     </div>
+    <br><br><br>
     <footer>
        
     </footer>
-        <script
+    <!-- Bootstrap 5.3 JS -->
+    <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
@@ -135,4 +138,5 @@
         integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

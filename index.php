@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MICROFINANCIERA</title>
-    <link rel="stylesheet" href="./SRC/CSS/style.css">
+    <link rel="stylesheet" href="./SRC/Bootstrap/css/style_index.css">
     <link rel="stylesheet" href="cl-icon/css/all.min.css">
     
     
 </head>
 
 <body>
-    <div class="wrapper">
+<div class="wrapper">
         <form action="./SRC/VISTAS/menu.php" class="form">
             <h1 class="title">INICIO</h1>
             <div class="inp">
@@ -24,7 +24,7 @@
                 <i class="fa-solid fa-lock"></i>
              </div>
              <button class="submit">Iniciar Sesion</button>
-             <p class="footer">¿No tienes una cuenta? <a href="" class="link">por favor, registrate</a></p>
+             <p class="footer">¿No tienes una cuenta? <a href="#" class="link">por favor, registrate</a></p>
         </form>
        
         <div></div>
@@ -32,13 +32,7 @@
             <h1 class="we_text">Bienvenido</h1>
             <img src="./SRC/VISTAS/Img/MICRO.PNG.png" width="190px" height="190px" alt="">
           
-        
-
         </div>
-
     </div>
-   
-    
 </body>
-
 </html>
